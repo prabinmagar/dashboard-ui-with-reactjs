@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #29221d;
+  --clr-primar-light: #473b33;
+  --clr-secondary: #1e1611;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-pumpkin: #fe6c00;
+  --clr-silver: #a8a5a6;
+  --clr-silver-v1: #bdbabb;
+  --clr-scarlet: #fe1e00;
+  --clr-scarlet-v1: rgb(254, 30, 0, 0.79);
+  --clr-green: #00fe93;
+  --clr-yellow: #fec80a;
+  --clr-jet: #302924;
+  --clr-peach: #ffc397;
+  --font-family-bai: "Bai Jamjuree", sans-serif;
+  --transition-default: all 300ms ease-in-out;
+}
+
+body {
+  font-family: var(--font-family-bai);
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  color: unset;
+  text-decoration: none;
+  color: var(--clr-white);
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.img-fit-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-white {
+  color: var(--clr-white);
+}
+.text-silver-v1 {
+  color: var(--clr-silver-v1);
+}
+.text-scarlet {
+  color: var(--clr-scarlet);
+}
+.text-green {
+  color: var(--clr-green);
+}
+.bg-jet {
+  background: var(--clr-jet);
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* commons */
+.lg-value {
+  font-size: 24px;
+  font-weight: 600;
+}
+.grid-common {
+  background-color: var(--clr-primary);
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 24px;
+  color: var(--clr-white);
+  padding: 24px;
+}
+.grid-c-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.grid-c-title-text {
+  font-weight: 400;
+  color: var(--clr-silver);
+}
+.grid-c-title-icon img {
+  width: 24px;
+}
+
+@media screen and (max-width: 1400px) {
+  .grid-common {
+    padding: 16px;
+  }
+  body {
+    font-size: 14px !important;
+  }
+}

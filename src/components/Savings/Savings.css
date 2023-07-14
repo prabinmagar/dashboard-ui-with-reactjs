@@ -1,0 +1,48 @@
+/* grid c6 */
+.grid-c6 .grid-item .avatar {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.grid-c6 .grid-item-top-l {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.grid-c6 .grid-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.grid-c6 .grid-item-top-r {
+  font-weight: 600;
+}
+.grid-c6 .grid-item-badges {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-c6 .grid-item-badge {
+  color: #8a8587;
+  background-color: var(--clr-jet);
+  display: inline-block;
+  border-radius: 16px;
+  padding: 4px 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  margin-right: 6px;
+}
+.grid-c6 .grid-item-progress {
+  background-color: var(--clr-primar-light);
+  height: 10px;
+  border-radius: 100vh;
+  margin-top: 8px;
+}
+.grid-c6 .grid-item-fill {
+  width: 60%;
+  height: 10px;
+  background-color: var(--clr-pumpkin);
+  border-radius: 100vh;
+}

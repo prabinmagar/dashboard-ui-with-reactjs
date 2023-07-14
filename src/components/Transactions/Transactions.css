@@ -1,0 +1,40 @@
+/* grid c2 */
+.grid-c2 .grid-item {
+  display: flex;
+}
+.grid-c2 .grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.grid-c2 .grid-item:last-child {
+  margin-bottom: 0;
+}
+.grid-c2 .grid-item p {
+  color: var(--clr-silver-v1);
+}
+.grid-c2 .grid-item-l .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.grid-c2 .grid-item-l {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.grid-c2 .grid-item-l .text {
+  font-weight: 600;
+}
+.grid-c2 .grid-item-l span {
+  display: block;
+  font-weight: 400;
+  margin-top: 4px;
+  font-size: 15px;
+  color: #8a8587;
+}
+.grid-c2 .grid-item-r span {
+  font-weight: 500;
+}
