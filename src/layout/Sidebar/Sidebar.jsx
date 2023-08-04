@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { personsImgs } from '../../utils/images';
 import { navigationLinks } from '../../data/data';
 import "./Sidebar.css";
-import { useContext } from 'react';
 import { SidebarContext } from '../../context/sidebarContext';
 
 const Sidebar = () => {
